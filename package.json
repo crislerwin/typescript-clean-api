@@ -11,6 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/crislerwin/typecript-clean-api.git"
   },
+  "eslintConfig": {
+    "extends": [
+      "standard-typescript-prettier"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  },
+  "prettier": "eslint-config-standard-typescript-prettier/prettier",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,6 +28,7 @@
   },
   "homepage": "https://github.com/crislerwin/typecript-clean-api#readme",
   "devDependencies": {
+    "@types/eslint": "^7.2.10",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.0.2",
     "@typescript-eslint/eslint-plugin": "^4.22.1",
