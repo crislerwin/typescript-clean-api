@@ -1,14 +1,14 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2016": true
   },
   "extends": ["standard"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 12
+    "ecmaVersion": 6
   },
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error"
   }
