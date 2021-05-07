@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
-    "test:staged": "jest --passWithNoTests"
+    "test:staged": "jest --passWithNoTests",
+    "test:ci": "npm test -- --coverage",
+    "lint": "eslint \"**/*.{js,ts}\" --quiet --fix"
   },
   "repository": {
     "type": "git",
