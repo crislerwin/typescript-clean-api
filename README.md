@@ -5,6 +5,6 @@
 
 ## Qual o meu propósito?
 - Aprender TDD, DDD, Clean Architecture e SOLID
-- Desenvolver a habilidade de escrever código limpo, organizado
+- Desenvolver a habilidade de escrever código limpo e organizado
 - Aprender a escrever testes unitários
 - Aprender a escrever commits semânticos
